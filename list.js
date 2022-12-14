@@ -22,5 +22,12 @@ const addData = () => {
 
 module.exports = addData;
 
-// button.addEventListener('click', addData);
 
+ button.addEventListener('click', addData);
+
+function addData(){
+  grandtotal += qty * price;
+}
+
+document.getElementById('total').innerHTML = "Total Ammount " + grandtotal + " $";
+document.getElementById('myinputs').reset();
