@@ -1,8 +1,8 @@
 var nm=document.getElementById('item-name-input');
-var prc=document.getElementById('item-name-price');
+var prc=document.getElementById('item-price-input');
 let sum=document.getElementById('add');
 let price=document.getElementById('price');
-let item=document.getElementById('item-names');
+let item=document.getElementById('item');
 
 var ttl=0;
 sum.addEventListener('click',mySum);
